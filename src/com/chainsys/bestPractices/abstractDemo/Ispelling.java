@@ -2,9 +2,9 @@ package com.chainsys.bestPractices.abstractDemo;
 
 public interface Ispelling {
 
-    void spellCheck(String word);    //must be implemented by all languages 
-   void checkGrammar(String sentence);    // must be implemented by all languages 
-   int wordCount(String senetence);    // the logic is the same for all language
+    void spellCheck(String word);            //must be implemented by all languages 
+    void checkGrammar(String sentence);    // must be implemented by all languages 
+    int  wordCount(String senetence);      // the logic is the same for all language
     
 }
 abstract class Language implements Ispelling{

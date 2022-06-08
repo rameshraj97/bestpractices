@@ -1,5 +1,5 @@
 package com.chainsys.bestPractices.utils;
 
-public class logManager {
+public class LogManager {
 
 }
